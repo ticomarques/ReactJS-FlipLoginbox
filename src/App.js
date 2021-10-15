@@ -1,8 +1,14 @@
-import './App.css';
+import { LeftBox } from './Components/LeftBox';
+import { RightBox } from './Components/RightBox';
+import { Overlay } from './Components/Overlay';
 
 function App() {
   return (
-  <h1>Vamos iniciar</h1>
+      <div className="container">
+        <LeftBox />
+        <RightBox />
+        <Overlay />
+      </div>
   );
 }
 
