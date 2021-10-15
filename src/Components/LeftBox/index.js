@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faGooglePlusG, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
 export const LeftBox = () => {
     return(
         <div className="form-container sign-up-container">
@@ -13,9 +16,9 @@ export const LeftBox = () => {
                 <br />
                 <span>or use your social media</span>
                 <div className="social-container">
-                    <a href="#mar" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#mar" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#mar" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#mar" className="social"><FontAwesomeIcon icon={faFacebookF} /></a>
+                    <a href="#mar" className="social"><FontAwesomeIcon icon={faGooglePlusG} /></a>
+                    <a href="#mar" className="social"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </div>
             </form>
         </div>
